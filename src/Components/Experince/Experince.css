@@ -1,0 +1,128 @@
+.body{
+  width: 100%;
+  margin:0;
+   font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    
+
+
+}
+.about-banner {
+  text-align: center;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about-breadcrumb {
+  font-size: 16px;
+  color: gray;
+}
+.experience-timeline {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Row of Experience Cards */
+.experience-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+/* Individual Experience Card */
+.experience-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 300px;
+  height: 360px; /* Ensures all cards are same height */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Styles */
+.experience-card h2 {
+  font-size: 20px;
+  color: #1e1e1e;
+  margin-bottom: 4px;
+}
+
+.experience-card h3 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.exp-period {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.experience-card p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+/* Tech Badges */
+.exp-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-badge {
+  background-color: #eef1f5;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Arrow Between Cards */
+.arrow {
+  font-size: 28px;
+  color: #aaa;
+  align-self: center;
+}
+
+.experience{
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+
+  .experience{
+    margin-left: 25px;
+  }
+
+
+}
+
+  
