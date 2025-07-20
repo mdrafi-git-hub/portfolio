@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom"
 import './About.css'
 // import homeImage from '../../assets/homeImage.png'; 
-import HomeImage from '../../assets/HomeImage'
+import HomeImage from '../../assets/HomeImage.png'
 import AboutMe from '../../assets/AboutMe.png'
 import DropDown from '../DropDown/DropDown';
 // import SocialMedia from '../SocialMedia/SocialMedia';
