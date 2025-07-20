@@ -1,5 +1,5 @@
 import React from 'react'
-import './projects.css'
+import './Projects.css'
 import DropDown from '../DropDown/DropDown';
 
 const projectData = [
