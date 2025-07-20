@@ -146,7 +146,7 @@ const Home=()=>{
         </div>
       </div>
       <div className="hero-right">
-        <img src={homeImage} alt="" />
+        <img src={HomeImage} alt="" />
 
       </div>
     </div>
