@@ -1,4 +1,3 @@
-// Contact.jsx
 import React from 'react';
 import './Contact.css';
 import DropDown from '../DropDown/DropDown';
