@@ -1,22 +1,17 @@
-import React from 'react'
-// import homeImage from '../../assets/homeImage.png'; 
-import HomeImage from '../../assets/HomeImage.png'
-import AboutMe from '../../assets/AboutMe.png'
-
+import React from 'react';
+import HomeImage from '../../assets/HomeImage.png';
+import AboutMe from '../../assets/AboutMe.png';
 import Card from 'react-bootstrap/Card';
 import htmlLogo from '../../assets/HTMLLOGO.png';
 import cssLogo from '../../assets/CSSLOGO1.png';
-import jsLogo from '../../assets/JSLOGO1.jpg'
-import react1logo from '../../assets/REACT1LOGO.png'
-import BoostrapLogo from '../../assets/BOOSTRAPLOGO.png'
-import tailwindLogo from'../../assets/TAILWINDCSSLOGO.png'
-import gitLogo from '../../assets/GITLOGO.png'
-import githubLogo from '../../assets/GITHUBLOGO1.jpg'
-import wordpressLogo from '../../assets/WORDPRESSLOGO2.png'
-import seoLogo from '../../assets/SEOLOGO.png'
-
-
-
+import jsLogo from '../../assets/JSLOGO1.jpg';
+import react1logo from '../../assets/REACT1LOGO.png';
+import BoostrapLogo from '../../assets/BOOSTRAPLOGO.png';
+import tailwindLogo from'../../assets/TAILWINDCSSLOGO.png';
+import gitLogo from '../../assets/GITLOGO.png';
+import githubLogo from '../../assets/GITHUBLOGO1.jpg';
+import wordpressLogo from '../../assets/WORDPRESSLOGO2.png';
+import seoLogo from '../../assets/SEOLOGO.png';
 
 import DropDown from '../DropDown/DropDown';
 
