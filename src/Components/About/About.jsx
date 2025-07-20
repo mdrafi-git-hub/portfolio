@@ -1,29 +1,28 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import './About.css'
-// import homeImage from '../../assets/homeImage.png'; 
-import HomeImage from '../../assets/HomeImage.png'
+// import HomeImage from '../../assets/HomeImage.png'
 import AboutMe from '../../assets/AboutMe.png'
 import DropDown from '../DropDown/DropDown';
-// import SocialMedia from '../SocialMedia/SocialMedia';
+
 
 
 
 const journeyData = [
   {
-    year: " June 2022",
+    year: "June 2022",
     icon: "📈",
     title: "Digital Marketing Intern",
-    description: "Started Carrer as a Intern and Learn Digital Marketing Modules."
+    description: "Started career as an intern and learned Digital Marketing modules."
   },
   {
-    year: " Jan 2023 - Dec 2024",
+    year: "Jan 2023 - Dec 2024",
     icon: "💻",
     title: "Digital Marketing Executive",
     description: "Worked on SEO, ads, landing pages, and Google Analytics.."
   },
   {
-    year: " Jan- 2025",
+    year: "Jan- 2025",
     icon: "🚀",
     title: "Start Learning Web Technologies",
     description: "HTML, CSS. JAVASCRIPT, REACT JS, BOOSTRAP, TAILWIND CSS, GIT & GIT HUB"
@@ -59,7 +58,7 @@ return (
         </h1>
         <h3>ASPIRING REACT JS DEVELOPER</h3>
         <div className="buttons">
-          {/* <button className="btn-primary">HIRE ME</button> */}
+        
           <a href="/Frontend_Developer_Rafi.pdf" download>
   <button className="btn-primary">GET CV</button>
 </a>
@@ -88,9 +87,7 @@ return (
           <p>I believe in continuous growth and am on a mission to build real-world projects that not only challenge my skills but also add value.</p>
 
           <p>Let’s create something impactful together! 💻🚀</p>
-{/* <a href="/Frontend_Developer_Rafi.pdf" download>
-  <button className="btn btn-primary">DOWNLOAD CV</button>
-</a> */}
+
 
 <a href="/Frontend_Developer_Rafi.pdf" download="Frontend_Developer_Rafi.pdf">
   <button className="btn btn-primary">DOWNLOAD CV</button>
@@ -117,25 +114,7 @@ return (
         </div>
       </div>
 
-      {/* <div className="contact-container">
-      <h2 className="contact-heading">Get in Touch</h2>
-      <p className="contact-subtitle">Feel free to contact me for any collaboration or project discussion.</p>
-
-      <div className="contact-details">
-        <div className="contact-card">
-          <h3>Email</h3>
-          <p>rafimohammad055@g <span>mail.com</span></p>
-        </div>
-        <div className="contact-card">
-          <h3>Phone</h3>
-          <p>+91 94929 19173</p>
-        </div>
-        <div className="contact-card">
-          <h3>Location</h3>
-          <p>Hyderabad, India</p>
-        </div>
-      </div>
-    </div> */}
+      
 
       <DropDown />
       {/* <SocialMedia /> */}
