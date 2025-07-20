@@ -1,5 +1,6 @@
 import React from 'react'
-import homeImage from '../../assets/homeImage.png'; 
+// import homeImage from '../../assets/homeImage.png'; 
+import HomeImage from '../../assets/HomeImage.png'
 import AboutMe from '../../assets/AboutMe.png'
 
 import Card from 'react-bootstrap/Card';
